@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<body class="bg-[#F9F7F3]">
+<!--Main Navigation-->
+
+
+
+<header>
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+            <div class="navbar  " id="navbar-sticky">
+                    <div class="dropdown">
+                        <a href="index.html"> <button type="button"
+                                class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Blog</button></a>
+                    </div>
+             
+                <div class="navbar-center">
+                    <img src="assets/logo.png" alt="">
+                    <a class="btn btn-ghost text-xl">Donate Bangladesh</a>
+                </div>
+                <div class="navbar-end">
+                    <img src="assets/coin.png" alt="">
+                    <div class="">5000 <span>BDT</span></div>
+                </div>
+            </div>
+        </div>
+      </nav>
+      
+</header>
+  
+<main>
+    <section class="bg-[#1D1D1D] text-gray-100 py-32 min-h-screen">
+        <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
+          <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Important  FAQ  </h2>
+          <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+            <details>
+              <summary class="py-2 outline-none cursor-pointer focus:underline">What is Document Object Model (Dom)?</summary>
+              <div class="px-4 pb-4">
+                <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content.</p>
+              </div>
+            </details>
+            <details>
+              <summary class="py-2 outline-none cursor-pointer focus:underline">How do you select an element From the DOM ?</summary>
+              <div class="px-4 pb-4">
+                <p>six methods to select an element from the DOM.
+                   1. getElementById – search element by element_id
+                    2.getElementsByTagName – search element by tag name (e.g., span, div)
+                    3.getElementsByClassName – search element by class name
+                   4. getElementsByName – search element by name attribute
+                   5. querySelector – returns the first element that matches the specified selector
+                    6.querySelectorAll – returns elements that match the specified selector.</p>
+              </div>
+            </details>
+            <details>
+              <summary class="py-2 outline-none cursor-pointer focus:underline">What is event Delegation in the context of the DOM,and why is it useful?</summary>
+              <div class="px-4 pb-4">
+                <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.</p>
+              </div>
+            </details>
+            <details>
+              <summary class="py-2 outline-none cursor-pointer focus:underline">How do you manipulate  an elements attributes and style using the DOM ?</summary>
+              <div class="px-4 pb-4">
+                <p>The classList object only provide methods to change the class of an element. If you want to change other attributes like id, href, or src, you can use the setAttribute() method.
+                    The setAttribute() method accepts two arguments:
+                    1.The name of the attribute to set
+                    2.The value of the attribute to set</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+      
+</main>
+
+        
+    </body>
+
+</html>
